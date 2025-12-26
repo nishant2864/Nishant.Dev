@@ -13,7 +13,7 @@ const navItems = [
   { label: "Projects", href: "/projects" },
   // { label: "Notes", href: "/notes" },/
   { label: "Workbench", href: "/workbench" },
-  { label: "Blog", href: "/blog" },
+  { label: "Roles", href: "/blog" },
 ]
 
 const socialLinks = [
@@ -56,9 +56,9 @@ export function Header() {
               <span className="glitch">{"👨🏻‍💻"}</span>
             </div>
             <span className="font-mono text-sm tracking-tight">
-              PORT
+              NISHANT
               <span className="bg-gradient-to-l from-primary/50 to-accent bg-clip-text text-transparent font-semibold">
-                IFY
+                .DEV
               </span>
             </span>
           </Link>
