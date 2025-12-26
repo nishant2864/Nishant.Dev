@@ -4,35 +4,35 @@ import { Github, ExternalLink } from "lucide-react"
 const wipItems = [
   {
     id: 1,
-    name: "leetcode",
-    description: "Algorithmic problem solving across data structures, optimization, and edge-case handling.",
-    progress: 3787/86,
+    name: "Portify-Website",
+    description: "A modern portfolio website built with Next.js 16, Tailwind CSS, and TypeScript.",
+    progress: 90,
     lastUpdated: "Dec 2025",
-    url: "https://leetcode.com/u/nishant2458/",
+    url: "https://wwww.github.com/nishant2864/Portify-Website",
   },
   {
     id: 2,
-    name: "code-studio",
-    description: "Competitive programming across data structures, optimization, and edge-case handling.",
-    progress: 3787/60,
+    name: "portify",
+    description: "An iOS based offline portfolio app built with SwiftUI and SwiftUI",
+    progress: 50,
     lastUpdated: "Dec 2025",
-    url: "https://www.naukri.com/code360/profile/encrypted_boy",
+    url: "https://www.github.com/nishant2864/portify",
   },
   {
     id: 3,
-    name: "codolio",
-    description: "To track my progress in competitive programming across the globe.",
-    progress: 3787/70,
+    name: "g-buddy",
+    description: "An AI ecosystem for the Galgotias University students",
+    progress: 40,
     lastUpdated: "Dec 2025",
-    url: "https://codolio.com/profile/nishant28",
+    url: "https://www.github.com/nishant2864/g-buddy",
   },
   {
     id: 4,
-    name: "github",
-    description: "Open-source projects, system experiments, and production-grade repositories.",
-    progress: 3787/50,
-    lastUpdated: "Dec 2025",
-    url: "https://github.com/nishant2864",
+    name: "gtc-25",
+    description: "The official repository for the Galgotias University Tech Conclave 2025",
+    progress: 100,
+    lastUpdated: "Jul 2025",
+    url: "https://github.com/nishant2864/gtc-25",
   },
 ]
 
@@ -46,8 +46,7 @@ export function Workbench() {
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Workbench</h2>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            A consolidated view of my active engineering presence across
-            coding platforms — experiments, contributions, problem-solving,
+            A consolidated view of my active engineering experiments, contributions, problem-solving,
             and competitive builds in the open.
           </p>
         </div>
@@ -86,6 +85,7 @@ export function Workbench() {
                       {item.name}
                     </h4>
                     <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                      <Github className="h-3 w-3 text-muted-foreground" />
                       <ExternalLink className="h-3 w-3 text-muted-foreground" />
                     </div>
                   </div>
@@ -111,7 +111,7 @@ export function Workbench() {
                         item.progress >= 80 ? "text-primary" : "text-muted-foreground",
                       )}
                     >
-                      {item.progress.toFixed(2)}%
+                      {item.progress}%
                     </span>
                   </div>
 

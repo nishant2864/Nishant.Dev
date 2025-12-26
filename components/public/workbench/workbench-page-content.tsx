@@ -7,61 +7,51 @@ import { Github, ExternalLink, Clock, GitBranch, Activity } from "lucide-react"
 const wipItems = [
   {
     id: 1,
-    name: "next16-docker-tw4-starter",
-    description: "Next.js 16 starter with App Router, Tailwind v4, Next-Auth v5, and Docker",
-    progress: 85,
-    lastUpdated: "Dec 2024",
-    url: "https://github.com/ehsanghaffar/next16-docker-tw4-starter",
+    name: "Nishant.Dev-Website",
+    description: "A modern portfolio website built with Next.js 16, Tailwind CSS, and TypeScript.",
+    progress: 90,
+    lastUpdated: "Dec 2025",
+    url: "https://wwww.github.com/nishant2864/Portify-Website",
     branch: "main",
-    commits: 47,
+    commits: 13,
   },
   {
     id: 2,
-    name: "handbuilt-linux",
-    description: "Minimal Linux distro from scratch with BusyBox and Syslinux bootloader",
-    progress: 60,
-    lastUpdated: "Nov 2025",
-    url: "https://github.com/ehsanghaffar/handbuilt-linux",
-    branch: "develop",
-    commits: 32,
+    name: "Portify",
+    description: "An iOS based offline portfolio app built with SwiftUI and SwiftUI",
+    progress: 50,
+    lastUpdated: "Dec 2025",
+    url: "https://github.com/nishant2864/portify",
+    branch: "main",
+    commits: 2,
   },
   {
     id: 3,
-    name: "einbiogpt",
-    description: "AI-powered social media bio generator with MCP integration",
-    progress: 90,
-    lastUpdated: "Apr 2025",
-    url: "https://github.com/ehsanghaffar/einbiogpt",
-    branch: "main",
-    commits: 89,
+    name: "g-buddy",
+    description: "An AI ecosystem for Galgotia University",
+    progress: 40,
+    lastUpdated: "Dec 2025",
+    url: "https://github.com/nishant2864/g-buddy",
+    branch: "develop",
+    commits: 10,
   },
   {
     id: 4,
-    name: "llm-practice",
-    description: "Self-hosted chatbot API with RAG and MCP protocol support",
-    progress: 75,
-    lastUpdated: "Apr 2025",
-    url: "https://github.com/ehsanghaffar/llm-practice",
-    branch: "feature/mcp",
-    commits: 56,
-  },
-  {
-    id: 5,
-    name: "einui",
-    description: "Liquid Glass UI components library built on Tailwind and shadcn/ui",
-    progress: 45,
-    lastUpdated: "Dec 2024",
-    url: "https://github.com/ehsanghaffar/einui",
-    branch: "main",
-    commits: 28,
+    name: "gtc-25",
+    description: "The official website of the Galgotia Tech Conclave 2025",
+    progress: 100,
+    lastUpdated: "Dec 2025",
+    url: "https://github.com/nishant2864/gtc-25",
+    branch: "develop",
+    commits: 44,
   },
 ]
 
 const recentActivity = [
-  { type: "commit", project: "einui", message: "Add new Button variants", time: "2 hours ago" },
-  { type: "branch", project: "llm-practice", message: "Created feature/mcp branch", time: "5 hours ago" },
-  { type: "commit", project: "einbiogpt", message: "Implement MCP protocol handlers", time: "1 day ago" },
-  { type: "commit", project: "handbuilt-linux", message: "Update kernel config", time: "2 days ago" },
+  { type: "commit", project: "Nishant.Dev-Website", message: "feat. Workbench Added", time: "2 hours ago" },
+  { type: "branch", project: "Portify", message: "Created Profile Card", time: "5 hours ago" },
+  { type: "commit", project: "g-buddy", message: "feat. Mobile Accessibility Added", time: "1 day ago" },
+  { type: "commit", project: "gtc-25", message: "fix. Bug Fixes", time: "5 months ago" },
 ]
 
 export function WorkbenchPageContent() {
@@ -78,12 +68,12 @@ export function WorkbenchPageContent() {
         {/* Hero */}
         <div className={cn("mb-12 sm:mb-16 space-y-4 opacity-0", isVisible && "animate-fade-in-up")}>
           <p className="font-mono text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-primary">
-            Work in Progress
+            TECHNICAL FOOTPRINT
           </p>
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Workbench</h1>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Active experiments and prototypes. Things that are being built, broken, and rebuilt. Real-time progress on
-            ongoing projects.
+            A consolidated view of my active engineering experiments, contributions, problem-solving,
+            and competitive builds in the open.
           </p>
         </div>
 
@@ -103,7 +93,7 @@ export function WorkbenchPageContent() {
                   <div className="h-3 w-3 rounded-full bg-yellow-500/60 transition-colors hover:bg-yellow-500 cursor-pointer" />
                   <div className="h-3 w-3 rounded-full bg-primary/60 transition-colors hover:bg-primary cursor-pointer" />
                 </div>
-                <span className="ml-4 font-mono text-xs text-muted-foreground truncate">~/ehsanghaffar/active</span>
+                <span className="ml-4 font-mono text-xs text-muted-foreground truncate">~/nishant/workbench/active</span>
                 <div className="ml-auto flex items-center gap-2 text-muted-foreground">
                   <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
                   <span className="font-mono text-xs">live</span>
@@ -248,6 +238,11 @@ export function WorkbenchPageContent() {
               </div>
             </div>
           </div>
+        </div>
+          <div className="mt-20 flex w-full justify-center">
+          <p className="max-w-2xl text-center sm:text-lg text-muted-foreground leading-relaxed">
+            This workbench reflects sustained execution — public artifacts, repeatable problem-solving, and systems built in the open.
+          </p>
         </div>
       </div>
     </section>

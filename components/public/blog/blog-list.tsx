@@ -131,7 +131,7 @@ const blogPosts = [
       role: "Hack2Skill",
     },
     featured: false,
-    color: "from-teal-500/20 to-cyan-500/20",
+    color: "from-purple-500/20 to-pink-500/20",
   },
 ]
 
