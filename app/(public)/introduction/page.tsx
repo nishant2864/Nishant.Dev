@@ -9,7 +9,7 @@ export default function IntroductionPage() {
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-2">
               <p className="font-mono text-xs uppercase tracking-[0.2em] sm:tracking-[0.3em] text-muted-foreground">
-                Welcome to PORTIFY
+                Welcome to NISHANT.DEV
               </p>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl text-balance">
                 Where Development Meets{" "}
@@ -20,7 +20,7 @@ export default function IntroductionPage() {
             </div>
 
             <p className="text-base sm:text-lg leading-relaxed text-muted-foreground max-w-3xl">
-              PORTIFY is a digital workshop and portfolio platform designed for developers who
+              NISHANT.DEV is a digital workshop and portfolio platform designed for developers who
               believe in building in public. It&apos;s a space where ideas take shape, experiments
               unfold, and open-source projects come to life.
             </p>
@@ -43,7 +43,7 @@ export default function IntroductionPage() {
 
             <div className="space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
               <p>
-                PORTIFY isn&apos;t just another portfolio website—it&apos;s a living, breathing
+                NISHANT.DEV isn&apos;t just another portfolio website—it&apos;s a living, breathing
                 showcase of continuous learning and experimentation. Built by developers, for
                 developers, it represents the philosophy that the best way to learn is to build,
                 share, and iterate.
@@ -51,7 +51,7 @@ export default function IntroductionPage() {
 
               <p>
                 Whether you&apos;re exploring cutting-edge AI integrations, diving into systems
-                programming, or looking for modern web development patterns, PORTIFY offers a window
+                programming, or looking for modern web development patterns, NISHANT.DEV offers a window
                 into real-world projects at various stages of development—from initial experiments
                 to production-ready solutions.
               </p>

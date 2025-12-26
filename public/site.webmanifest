@@ -1,7 +1,7 @@
 {
-  "name": "PORTIFY — Nishant Bhardwaj's Digital Laboratory",
-  "short_name": "PORTIFY",
-  "description": "A digital workshop where development meets curiosity. Experiments, prototypes, and open-source artifacts by Ehsan Ghaffar.",
+  "name": "NISHANT.DEV — Nishant Bhardwaj's Digital Laboratory",
+  "short_name": "NISHANT.DEV",
+  "description": "A digital workshop where development meets curiosity. Experiments, prototypes, and open-source artifacts by Nishant Bhardwaj.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

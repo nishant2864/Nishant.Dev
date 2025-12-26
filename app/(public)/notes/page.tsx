@@ -1,7 +1,7 @@
 import { NotesPageContent } from "@/components/public/notes/notes-page-content";
 
 export const metadata = {
-  title: "Lab Notes | PORTIFY",
+  title: "Lab Notes | NISHANT.DEV",
   description: "Technical findings, observations, and thoughts from the workbench.",
 };
 

@@ -33,12 +33,12 @@ export function generateWebsiteStructuredData(url: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'PORTIFY',
-    description: "A digital workshop where code meets curiosity. Experiments, prototypes, and open-source artifacts by Ehsan Ghaffar.",
+    name: 'NISHANT.DEV',
+    description: "A digital workshop where code meets curiosity. Experiments, prototypes, and open-source artifacts by Nishant Bhardwaj.",
     url: url,
     author: {
       '@type': 'Person',
-      name: 'Ehsan Ghaffar',
+      name: 'Nishant Bhardwaj',
       url: 'https://github.com/ehsanghaffar',
     },
     potentialAction: {
@@ -56,18 +56,18 @@ export function generatePersonStructuredData() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Ehsan Ghaffar',
-    url: 'https://eindev.ir',
-    image: 'https://eindev.ir/developer-portrait.png',
+    name: 'Nishant Bhardwaj',
+    url: 'https://github.com/nishant2864',
+    image: 'https://github.com/nishant2864.png',
     sameAs: [
-      'https://github.com/ehsanghaffar',
-      'https://twitter.com/ehsanghaffar',
-      'https://linkedin.com/in/ehsanghaffar',
+      'https://github.com/nishant2864',
+      'https://twitter.com/nishant2864',
+      'https://linkedin.com/in/nishantbhardwaj28',
     ],
     jobTitle: 'Software Engineer',
     worksFor: {
       '@type': 'Organization',
-      name: 'PORTIFY',
+      name: 'NISHANT.DEV',
     },
   }
 }

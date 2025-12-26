@@ -1,14 +1,14 @@
 import { ProjectsPageContent } from "@/components/public/projects/projects-page-content";
 import type { Metadata } from "next";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://portify.er';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://nishantbhardwaj.er';
 
 export const metadata: Metadata = {
   title: "Projects",
   description: "Explore open source projects, experiments, and tools. From web applications to systems programming, dive into the code.",
   keywords: ["open source", "projects", "web development", "systems programming", "experiments"],
   openGraph: {
-    title: "Projects — PORTIFY",
+    title: "Projects — NISHANT.DEV",
     description: "Explore open source projects, experiments, and tools.",
     url: `${baseUrl}/projects`,
     type: "website",
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
         url: `${baseUrl}/og-image-projects.png`,
         width: 1200,
         height: 630,
-        alt: "PORTIFY Projects",
+        alt: "NISHANT.DEV Projects",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects — PORTIFY",
+    title: "Projects — NISHANT.DEV",
     description: "Explore open source projects, experiments, and tools.",
     images: [`${baseUrl}/og-image-projects.png`],
   },
