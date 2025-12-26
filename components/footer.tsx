@@ -1,10 +1,11 @@
-import { Github, Twitter, Linkedin, Mail, ExternalLink, Heart } from "lucide-react"
+import { Github, Twitter, Linkedin, Mail, Instagram, ExternalLink, Heart } from "lucide-react"
 
 const socialLinks = [
-  { label: "GitHub", href: "https://github.com/ehsanghaffar", handle: "@ehsanghaffar", icon: Github },
-  { label: "Twitter", href: "https://twitter.com/ehsanghaffar", handle: "@ehsanghaffar", icon: Twitter },
-  { label: "LinkedIn", href: "https://linkedin.com/in/ehsanghaffar", handle: "/in/ehsanghaffar", icon: Linkedin },
-  { label: "Email", href: "mailto:hello@ehsanghaffar.dev", handle: "hello@ehsanghaffar.dev", icon: Mail },
+  { label: "GitHub", href: "https://github.com/nishant2864", handle: "@nishant2864", icon: Github },
+  { label: "Twitter", href: "https://twitter.com/Nishant35879871", handle: "@Nishant35879871", icon: Twitter },
+  { label: "LinkedIn", href: "https://linkedin.com/in/nishantbhardwaj28", handle: "/in/nishantbhardwaj28", icon: Linkedin },
+  { label: "Instagram", href: "https://instagram.com/_nishant28_", handle: "@_nishant28_", icon: Instagram },
+  { label: "Email", href: "mailto:nishantbhardwaj065@gmail.com", handle: "nishantbhardwaj065@gmail.com", icon: Mail },
 ]
 
 export function Footer() {
@@ -28,7 +29,7 @@ export function Footer() {
 
             <div className="pt-2">
               <a
-                href="mailto:hello@ehsanghaffar.dev"
+                href="mailto:nishantbhardwaj065@gmail.com"
                 className="group relative inline-flex items-center justify-center gap-3 overflow-hidden rounded-xl border border-primary bg-primary/10 px-8 py-4 sm:py-4 font-mono text-sm text-primary transition-all duration-500 hover:text-primary-foreground active:scale-[0.98] w-full sm:w-auto"
               >
                 <span className="relative z-10">send a signal</span>
@@ -75,13 +76,13 @@ export function Footer() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            <span>Forged with</span>
+            <span>Developed with</span>
             <Heart className="h-3.5 w-3.5 text-destructive animate-pulse" />
-            <span>& code</span>
+            <span>& creativity</span>
           </div>
 
           <div className="flex items-center gap-4">
-            {socialLinks.slice(0, 3).map((link) => (
+            {socialLinks.slice(0, 5).map((link) => (
               <a
                 key={link.label}
                 href={link.href}
@@ -96,7 +97,7 @@ export function Footer() {
           </div>
 
           <p className="font-mono text-xs text-muted-foreground text-center sm:text-right">
-            © {new Date().getFullYear()} PORTIFY — All experiments reserved
+            © {new Date().getFullYear()} PORTIFY — All rights reserved
           </p>
         </div>
       </div>
