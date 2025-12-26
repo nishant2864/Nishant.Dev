@@ -4,35 +4,35 @@ import { Github, ExternalLink } from "lucide-react"
 const wipItems = [
   {
     id: 1,
-    name: "next16-docker-tw4-starter",
-    description: "Next.js 16 starter with App Router, Tailwind v4, Next-Auth v5, and Docker",
-    progress: 85,
-    lastUpdated: "Dec 2024",
-    url: "https://github.com/ehsanghaffar/next16-docker-tw4-starter",
+    name: "leetcode",
+    description: "Algorithmic problem solving across data structures, optimization, and edge-case handling.",
+    progress: 3787/86,
+    lastUpdated: "Dec 2025",
+    url: "https://leetcode.com/u/nishant2458/",
   },
   {
     id: 2,
-    name: "handbuilt-linux",
-    description: "Minimal Linux distro from scratch with BusyBox and Syslinux bootloader",
-    progress: 60,
-    lastUpdated: "Nov 2025",
-    url: "https://github.com/ehsanghaffar/handbuilt-linux",
+    name: "code-studio",
+    description: "Competitive programming across data structures, optimization, and edge-case handling.",
+    progress: 3787/60,
+    lastUpdated: "Dec 2025",
+    url: "https://www.naukri.com/code360/profile/encrypted_boy",
   },
   {
     id: 3,
-    name: "einbiogpt",
-    description: "AI-powered social media bio generator with MCP integration",
-    progress: 90,
-    lastUpdated: "Apr 2025",
-    url: "https://github.com/ehsanghaffar/einbiogpt",
+    name: "codolio",
+    description: "To track my progress in competitive programming across the globe.",
+    progress: 3787/70,
+    lastUpdated: "Dec 2025",
+    url: "https://codolio.com/profile/nishant28",
   },
   {
     id: 4,
-    name: "llm-practice",
-    description: "Self-hosted chatbot API with RAG and MCP protocol support",
-    progress: 75,
-    lastUpdated: "Apr 2025",
-    url: "https://github.com/ehsanghaffar/llm-practice",
+    name: "github",
+    description: "Open-source projects, system experiments, and production-grade repositories.",
+    progress: 3787/50,
+    lastUpdated: "Dec 2025",
+    url: "https://github.com/nishant2864",
   },
 ]
 
@@ -42,11 +42,13 @@ export function Workbench() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 sm:mb-14 space-y-3 animate-fade-in-up">
           <p className="font-mono text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-primary">
-            Work in Progress
+            TECHNICAL FOOTPRINT
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Workbench</h2>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Active experiments and prototypes. Things that are being built, broken, and rebuilt.
+            A consolidated view of my active engineering presence across
+            coding platforms — experiments, contributions, problem-solving,
+            and competitive builds in the open.
           </p>
         </div>
 
@@ -58,7 +60,7 @@ export function Workbench() {
               <div className="h-3 w-3 rounded-full bg-yellow-500/60 transition-colors hover:bg-yellow-500 cursor-pointer" />
               <div className="h-3 w-3 rounded-full bg-primary/60 transition-colors hover:bg-primary cursor-pointer" />
             </div>
-            <span className="ml-4 font-mono text-xs text-muted-foreground truncate">~/ehsanghaffar/active</span>
+            <span className="ml-4 font-mono text-xs text-muted-foreground truncate">~/nishant/workbench/active</span>
             <div className="ml-auto hidden sm:flex items-center gap-2 text-muted-foreground">
               <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
               <span className="font-mono text-xs">live</span>
@@ -84,7 +86,6 @@ export function Workbench() {
                       {item.name}
                     </h4>
                     <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                      <Github className="h-3.5 w-3.5 text-muted-foreground" />
                       <ExternalLink className="h-3 w-3 text-muted-foreground" />
                     </div>
                   </div>
@@ -110,7 +111,7 @@ export function Workbench() {
                         item.progress >= 80 ? "text-primary" : "text-muted-foreground",
                       )}
                     >
-                      {item.progress}%
+                      {item.progress.toFixed(2)}%
                     </span>
                   </div>
 
@@ -127,6 +128,11 @@ export function Workbench() {
               <span className="ml-auto text-primary/50 hidden sm:block">press enter to run</span>
             </div>
           </div>
+        </div>
+        <div className="mt-20 flex w-full justify-center">
+          <p className="max-w-2xl text-center sm:text-lg text-muted-foreground leading-relaxed">
+            This workbench reflects sustained execution — public artifacts, repeatable problem-solving, and systems built in the open.
+          </p>
         </div>
       </div>
     </section>
