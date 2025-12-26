@@ -1,4 +1,4 @@
-import { Code2, Layers, FileText, Zap, Bot, Globe } from "lucide-react";
+import { Code2, Layers, Smartphone, Zap, Bot, Globe } from "lucide-react";
 
 export default function IntroductionPage() {
   return (
@@ -12,17 +12,15 @@ export default function IntroductionPage() {
                 Welcome to NISHANT.DEV
               </p>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl text-balance">
-                Where Development Meets{" "}
+                Where Systems Thinking Meets{" "}
                 <span className="bg-gradient-to-l from-primary/50 to-accent text-transparent bg-clip-text">
-                  Creativity
+                  Product Execution
                 </span>
               </h1>
             </div>
 
             <p className="text-base sm:text-lg leading-relaxed text-muted-foreground max-w-3xl">
-              NISHANT.DEV is a digital workshop and portfolio platform designed for developers who
-              believe in building in public. It&apos;s a space where ideas take shape, experiments
-              unfold, and open-source projects come to life.
+              NISHANT.DEV is a personal engineering workspace — not a static portfolio. It’s where AI systems are architected, mobile applications are refined, event-scale platforms are shipped, and ideas are validated under real-world constraints.
             </p>
           </div>
         </div>
@@ -34,32 +32,24 @@ export default function IntroductionPage() {
           <div className="rounded border border-border/50 bg-card/50 p-6 sm:p-10 backdrop-blur-sm space-y-8">
             <div className="space-y-4">
               <p className="font-mono text-xs uppercase tracking-[0.2em] sm:tracking-[0.3em] text-primary">
-                About the Platform
+                About the Developer
               </p>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-                A Developer&apos;s Digital Workshop
+                A Systems-First Engineer
               </h2>
             </div>
 
             <div className="space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
               <p>
-                NISHANT.DEV isn&apos;t just another portfolio website—it&apos;s a living, breathing
-                showcase of continuous learning and experimentation. Built by developers, for
-                developers, it represents the philosophy that the best way to learn is to build,
-                share, and iterate.
+                I work at the intersection of system architecture, product engineering, and applied AI. My focus is on building reliable software that scales — technically, operationally, and humanly.
               </p>
 
               <p>
-                Whether you&apos;re exploring cutting-edge AI integrations, diving into systems
-                programming, or looking for modern web development patterns, NISHANT.DEV offers a window
-                into real-world projects at various stages of development—from initial experiments
-                to production-ready solutions.
+                From AI-powered university ecosystems and legal assistants to offline-first iOS applications and event-scale platforms, my work prioritizes clear boundaries, deliberate trade-offs, and long-term maintainability over surface-level complexity.
               </p>
 
               <p>
-                The platform is fully open-source, encouraging collaboration and knowledge sharing
-                within the developer community. Every project, every lab note, and every line of
-                code is designed to inspire and educate.
+                This space documents that process — the decisions, iterations, and systems that survive beyond the first release.
               </p>
             </div>
           </div>
@@ -71,10 +61,10 @@ export default function IntroductionPage() {
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 space-y-4 text-center">
             <p className="font-mono text-xs uppercase tracking-[0.2em] sm:tracking-[0.3em] text-primary">
-              Platform Features
+              ENGINEERING FOCUS
             </p>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Built for Modern Development
+              Built Through Real-World Constraints
             </h2>
           </div>
 
@@ -82,39 +72,39 @@ export default function IntroductionPage() {
             {[
               {
                 icon: Code2,
-                title: "Open Source Projects",
+                title: "System-Centric Development",
                 description:
-                  "Every project is available on GitHub for learning and collaboration. Transparent development process from start to finish.",
-              },
-              {
-                icon: Layers,
-                title: "Developer Workbench",
-                description:
-                  "A dedicated space for ongoing experiments and prototypes. Watch ideas evolve from concept to implementation.",
-              },
-              {
-                icon: FileText,
-                title: "Lab Notes",
-                description:
-                  "Detailed documentation of learning journeys, technical insights, and development patterns discovered along the way.",
-              },
-              {
-                icon: Zap,
-                title: "Modern Tech Stack",
-                description:
-                  "Built with cutting-edge technologies including Next.js, React, TypeScript, and Tailwind CSS for optimal performance.",
+                  "I design software as systems, not screens — focusing on architecture, data flow, and long-term behavior instead of short-lived visual demos.",
               },
               {
                 icon: Bot,
-                title: "AI Integration",
+                title: "AI with Boundaries",
                 description:
-                  "Exploring the intersection of AI and web development with practical implementations and real-world use cases.",
+                  "AI assistants and workflows built with constrained prompts, role-based intelligence, and human-in-the-loop validation to ensure reliability over blind automation.",
+              },
+              {
+                icon: Smartphone,
+                title: "Offline-First Mobile Apps",
+                description:
+                  "Native iOS applications engineered for reliability — designed to work without constant connectivity, with accessibility and calm UX as first-class concerns.",
+              },
+              {
+                icon: Zap,
+                title: "Execution at Real Scale",
+                description:
+                  "Platforms and websites delivered for university-scale events, handling real traffic, fixed deadlines, and cross-team dependencies under pressure.",
+              },
+              {
+                icon: Layers,
+                title: "Process-Driven Engineering",
+                description:
+                  "Experienced working with Agile and Scrum teams — breaking problems into deliverable increments and shipping consistently instead of chasing perfection.",
               },
               {
                 icon: Globe,
-                title: "Localization",
+                title: "Built in the Open",
                 description:
-                  "Multi-language support with i18n integration, making projects accessible to a global developer community.",
+                  "Projects, experiments, and problem-solving activity maintained across public platforms, reflecting consistency, learning velocity, and execution.",
               },
             ].map((feature, index) => (
               <div

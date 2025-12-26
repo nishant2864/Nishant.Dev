@@ -9,11 +9,11 @@ const wipItems = [
     id: 1,
     name: "Nishant.Dev-Website",
     description: "A modern portfolio website built with Next.js 16, Tailwind CSS, and TypeScript.",
-    progress: 90,
+    progress: 100,
     lastUpdated: "Dec 2025",
     url: "https://wwww.github.com/nishant2864/Portify-Website",
     branch: "main",
-    commits: 13,
+    commits: 16,
   },
   {
     id: 2,
