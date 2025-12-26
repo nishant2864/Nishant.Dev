@@ -55,7 +55,7 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
             )}
           >
             <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
-            <span className="font-mono">back to blog</span>
+            <span className="font-mono">back to roles</span>
           </Link>
 
           {/* Category & Meta */}
@@ -289,7 +289,7 @@ export function BlogPostContent({ post }: BlogPostContentProps) {
           <div className="mx-auto max-w-4xl">
             <div className="mb-8">
               <span className="inline-block rounded-lg border border-border bg-secondary/50 px-3 py-1.5 font-mono text-xs tracking-wider text-muted-foreground mb-4">
-                [RELATED_POSTS]
+                [RELATED_ROLES]
               </span>
               <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">
                 Continue <span className="bg-gradient-to-l from-primary/50 to-accent text-transparent bg-clip-text">Reading</span>

@@ -30,7 +30,7 @@ export default function NotFound() {
             href="/blog"
             className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg font-medium hover:bg-secondary/80 transition-colors"
           >
-            Browse Blog
+            Browse Roles
           </Link>
           <Link
             href="/projects"

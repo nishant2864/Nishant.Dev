@@ -168,9 +168,6 @@ export function BlogList() {
           )}
           style={{ animationDelay: `${index * 80 + 100}ms` }}
         >
-          <Link href={`/blog/${post.slug}`} className="absolute inset-0 z-10">
-            <span className="sr-only">Read {post.title}</span>
-          </Link>
 
           <div
             className={cn(
@@ -224,11 +221,6 @@ export function BlogList() {
                   <span className="text-sm font-medium">{post.author.name}</span>
                   <span className="text-xs text-muted-foreground">{post.author.role}</span>
                 </div>
-              </div>
-
-              <div className="flex items-center gap-2 font-mono text-xs text-primary transition-all duration-300 sm:opacity-0 sm:translate-x-[-8px] group-hover:opacity-100 group-hover:translate-x-0">
-                <span>read article</span>
-                <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
               </div>
             </div>
 
