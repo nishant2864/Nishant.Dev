@@ -8,111 +8,127 @@ import { Input } from "@/components/ui/input"
 const projects = [
   {
     id: 0,
-    title: "EinUI",
+    title: "Portify",
     description:
-      "A collection of beautiful, ready-made Liquid Glass UI components you can preview, copy, and drop into any web app. Built on Tailwind, shadcn/ui, and Radix UI primitives.",
-    tags: ["TypeScript", "Next.js 16", "shadcn", "Radix UI", "Tailwind"],
+      "An offline-first iOS app that lets users build and share clean, professional portfolios using pre-designed templates.",
+    tags: ["Swift", "SwiftUI", "Local Persistence", "Offline Storage"],
     status: "in-progress",
     year: "2025",
-    stars: 8,
-    forks: 1,
-    url: "https://github.com/ehsanghaffar/einui",
-    homepage: "https://ui.eindev.ir",
+    stars: 17,
+    forks: 0,
+    url: "https://github.com/nishant2864/portify",
+    // homepage: "#",
+    featured: true,
+  },
+  {
+    id: 1,
+    title: "G-Buddy",
+    description:
+      "A modular AI ecosystem architected to unify student, faculty, and administrative workflows at university scale.",
+    tags: ["Next.js 16", "TypeScript", "AI Agents", "FastAPI", "shadcn/ui", "Tailwind", "Docker"],
+    status: "in-progress",
+    year: "2025",
+    stars: 6,
+    forks: 0,
+    url: "https://github.com/nishant2864/g-buddy",
+    homepage: "https://gbuddy.vercel.app/",
     featured: true,
     highlight: true,
   },
   {
-    id: 1,
-    title: "EinBioGPT",
-    description:
-      "An intelligent web application built with Next.js, Tailwind CSS, and OpenAI's GPT models. Generates engaging and personalized bios for social media platforms.",
-    tags: ["TypeScript", "Next.js", "GPT", "LangChain"],
-    status: "shipped",
-    year: "2023",
-    stars: 17,
-    forks: 8,
-    url: "https://github.com/ehsanghaffar/einbiogpt",
-    homepage: "https://bio.eindev.ir/",
-    featured: true,
-  },
-  {
     id: 2,
-    title: "JavaScript Playground",
+    title: "GTC-25",
     description:
-      "A collection of JavaScript code snippets, algorithms, and mini-projects for learning and reference purposes.",
-    tags: ["JavaScript", "Algorithms", "Snippets"],
+      "The official web platform for Galgotias Tech Conclave 2025 — a university-scale technical fest experience.",
+    tags: ["TypeScript", "Next.js", "React", "shadcn/ui", "WebGL", "Web3"],
     status: "shipped",
-    year: "2020",
-    stars: 19,
-    forks: 5,
-    url: "https://github.com/ehsanghaffar/javascript-playground",
+    year: "2025",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/nishant2864/gtc-25",
+    homepage: "https://www.galgotiastechconclave.in",
     featured: false,
+    highlight: true,
   },
   {
     id: 3,
-    title: "Next.js 16 Docker Starter",
+    title: "AyuMetra",
     description:
-      "A batteries-included starter for building Next.js 16.1.0 apps with App Router, PNPM, Tailwind v4+, Next-Auth v5, and multi-stage Docker setup.",
-    tags: ["Next.js 16.1.0", "Docker", "Tailwind v4"],
+      "An iOS app designed to support the mental and emotional well-being of senior citizens aged 60 and above.",
+    tags: ["Swift", "SwiftUI", "CoreML", "MessageKit", "MapKit", "AWS", "Local Persistence", "Restful APIs", "Accessibility"],
     status: "in-progress",
     year: "2025",
-    stars: 8,
-    forks: 4,
-    url: "https://github.com/ehsanghaffar/next16-docker-tw4-starter",
-    homepage: "https://nextjs-16-docker.vercel.app",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/nishant2864",
     featured: true,
   },
   {
     id: 4,
-    title: "Awesome Clubhouses",
+    title: "JusticeConnect",
     description:
-      "Curated list of resources for Clubhouse, the voice-based social network where people come together to talk, listen and learn.",
-    tags: ["Python", "Awesome List", "Social"],
+      "An AI-powered iOS legal assistant focused on accident and property dispute guidance with clarity and accessibility.",
+    tags: ["Swift", "SwiftUI", "MapKit", "MessageKit", "AI Prompt Pipelines", "Local Data Handling", "Offline Fallback"],
     status: "archived",
-    year: "2022",
-    stars: 41,
-    forks: 8,
-    url: "https://github.com/ehsanghaffar/awesome-clubhouse",
-    homepage: "https://ehsanghaffar.github.io/awesome-clubhouse/",
+    year: "2025",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/nishant2864/justiceconnect",
     featured: false,
   },
   {
     id: 5,
-    title: "LLM Practice",
+    title: "Nova TAG",
     description:
-      "A self-hosted personal chatbot API with FastAPI. Interact with Llama2 and other open-source LLMs for natural language conversations.",
-    tags: ["Python", "FastAPI", "Llama2", "MCP"],
+      "An informative web platform built during the NASA Space Apps Challenge to explore and understand exoplanets through structured data.",
+    tags: ["TypeScript", "Data Visualization", "Web Frontend"],
     status: "shipped",
-    year: "2023",
-    stars: 13,
-    forks: 3,
-    url: "https://github.com/ehsanghaffar/llm-practice",
+    year: "2024",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/vansh1505/nasa-spaceapp-2024-submission",
+    homepage: "https://nova-tag-5onx.vercel.app",
     featured: false,
+    highlight: true,
   },
   {
     id: 6,
-    title: "Hand-Build Linux",
+    title: "Secure File Vault",
     description:
-      "A minimal, customizable Linux distribution built from scratch using the Linux kernel, BusyBox, and Syslinux bootloader.",
-    tags: ["Shell", "Linux", "Docker"],
-    status: "in-progress",
+    "A Python-based utility for encrypting and decrypting files to ensure local data confidentiality and integrity.",
+    tags: ["Python", "Cryptography", "File I/O", "CLI", "AES Encryption", "Secure Key Handling"],
+    status: "shipped",
     year: "2025",
-    stars: 8,
-    forks: 1,
-    url: "https://github.com/ehsanghaffar/handbuilt-linux",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/nishant2864/File-Encrypter---Decrypter",
     featured: true,
   },
   {
     id: 7,
-    title: "Next.js AppDir Template",
+    title: "FinAIze",
     description:
-      "An all-inclusive Next.js web application template showcasing seamless integration of Next.js, Docker, MongoDB, and Tailwind CSS.",
-    tags: ["TypeScript", "Next.js", "Docker", "MongoDB"],
+    "An AI-powered financial assistant built to simplify personal finance decisions during the HumanAIze Hackathon.",
+    tags: ["TypeScript", "AI Logic", "Web Frontend"],
     status: "shipped",
-    year: "2023",
-    stars: 19,
-    forks: 6,
-    url: "https://github.com/ehsanghaffar/nextjs-appdir-docker",
+    year: "2024",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/nishant2864/FinAize-FinancialAssistant",
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Placify EduTech Website",
+    description:
+      "A modern, design-forward website built for Pacify EduTech LLP, blending glassmorphism and neomorphism with production-grade code.",
+    tags: ["TypeScript", "React", "Tailwind", "Glassmorphism", "Neomorphism", "Shadcn/ui", "Custom UI Effects"],
+    status: "shipped",
+    year: "2025",
+    stars: 0,
+    forks: 0,
+    url: "https://github.com/nishant2864",
+    homepage: "https://www.placifyedutech.com",
     featured: false,
   },
 ]
@@ -154,8 +170,8 @@ export function ProjectsPageContent() {
           <p className="font-mono text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-primary">Artifacts</p>
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Open Source Projects</h1>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            A collection of tools, experiments, and contributions to the open source community. Built with passion,
-            maintained with care.
+            Each artifact documents a problem, a system model, and the decisions
+            that shaped its final form including what was intentionally left out.
           </p>
         </div>
 
@@ -338,6 +354,13 @@ export function ProjectsPageContent() {
           </div>
         )}
       </div>
+      <div className="mt-20 flex w-full justify-center">
+          <p className="max-w-2xl text-center sm:text-lg text-muted-foreground leading-relaxed">
+            All artifacts are built with an assumption of change —
+            designed to be refactored, extended, or replaced
+            without collapsing the system.
+          </p>
+        </div>
     </section>
   )
 }
