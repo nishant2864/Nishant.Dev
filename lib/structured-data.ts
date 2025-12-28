@@ -6,7 +6,7 @@ export function generateBlogPostStructuredData(post: BlogPost, url: string) {
     '@type': 'BlogPosting',
     headline: post.title,
     description: post.excerpt,
-    image: `${url}/og-images/${post.slug}.png`,
+    image: `${url}/profile-image/${post.slug}.png`,
     datePublished: new Date(post.date).toISOString(),
     dateModified: new Date(post.date).toISOString(),
     author: {

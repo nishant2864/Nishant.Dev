@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "NISHANT.DEV",
     images: [
       {
-        url: "/og-image.png",
+        url: "/profile-image.png",
         width: 1200,
         height: 630,
         alt: "NISHANT.DEV — Nishant Bhardwaj's Digital Laboratory",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "NISHANT.DEV — Nishant Bhardwaj's Digital Laboratory",
     description: "A digital workshop where development meets curiosity. Experiments, prototypes, and open-source artifacts.",
     creator: "@nishantbhardwaj",
-    images: ["/og-image.png"],
+    images: ["/profile-image.png"],
   },
   robots: {
     index: true,

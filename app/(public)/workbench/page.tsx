@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${baseUrl}/og-image-workbench.png`,
+        url: `${baseUrl}/profile-image-workbench.png`,
         width: 1200,
         height: 630,
         alt: "NISHANT.DEV Workbench",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Workbench — NISHANT.DEV",
     description: "Active experiments, prototypes, and work in progress.",
-    images: [`${baseUrl}/og-image-workbench.png`],
+    images: [`${baseUrl}/profile-image-workbench.png`],
   },
   alternates: {
     canonical: `${baseUrl}/workbench`,
