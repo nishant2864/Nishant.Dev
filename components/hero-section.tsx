@@ -99,7 +99,7 @@ export function HeroSection() {
 > role: AI Engineer, iOS Developer, Tech Strategist
 > focus: AI ecosystems, offline-first apps, scalable systems
 > projects_active: G-Buddy, AyuMetra, Portify
-> experiments loaded: 6
+> experiments loaded: 9
 > status: shipping & iterating
 > last spark: today
               `}</span>
